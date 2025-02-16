@@ -1,0 +1,35 @@
+{
+  "directories": [
+    "src/",
+    "src/components/",
+    "src/store/",
+    "src/types/"
+  ],
+  "files": [
+    "src/types/calculator.ts",
+    "src/store/calculatorStore.ts",
+    "src/components/Calculator.tsx",
+    "src/App.tsx"
+  ],
+  "components": [
+    "Calculator",
+    "App"
+  ],
+  "types": [
+    "CalculatorOperation",
+    "CalculatorState"
+  ],
+  "interfaces": [
+    "CalculatorStore"
+  ],
+  "stores": [
+    "useCalculatorStore"
+  ],
+  "functions": [
+    "evaluate",
+    "clear",
+    "deleteNumber",
+    "appendNumber",
+    "selectOperation"
+  ]
+}
