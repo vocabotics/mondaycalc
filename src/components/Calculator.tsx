@@ -11,9 +11,9 @@ export function Calculator() {
       initial={{ scale: 0.9, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="w-full max-w-md mx-auto p-4"
+      className="w-screen h-screen flex items-center justify-center"
     >
-      <Card className="w-full bg-secondary text-secondary-foreground">
+      <Card className="w-full h-full bg-secondary text-secondary-foreground">
         <CardHeader>
           <CardTitle className="text-center">Calculator</CardTitle>
         </CardHeader>
