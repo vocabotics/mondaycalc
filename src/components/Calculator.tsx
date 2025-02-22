@@ -13,7 +13,7 @@ export function Calculator() {
       transition={{ duration: 0.3 }}
       className="w-full max-w-md mx-auto p-4"
     >
-      <Card className="w-full">
+      <Card className="w-full bg-secondary text-secondary-foreground">
         <CardHeader>
           <CardTitle className="text-center">Calculator</CardTitle>
         </CardHeader>
